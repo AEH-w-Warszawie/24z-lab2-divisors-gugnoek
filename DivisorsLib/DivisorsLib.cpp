@@ -18,7 +18,7 @@ std::vector<unsigned long long> divisors(unsigned long long number)
 			result.push_back(i);
 			if (i != number / i)
 			{
-				result.push_back(number / i);  // number / i de bölen
+				result.push_back(number / i);
 			}
 		}
 	}
